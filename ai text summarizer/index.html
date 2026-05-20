@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>AI Text Summarizer</h1>
+
+        <textarea 
+            id="inputText"
+            placeholder="Paste your long text here..."
+        ></textarea>
+
+        <button onclick="summarizeText()">
+            Generate Summary
+        </button>
+
+        <div id="loading" class="loading">
+            Generating Summary...
+        </div>
+
+        <div id="output" class="output"></div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
